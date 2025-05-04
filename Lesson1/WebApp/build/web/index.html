@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <form action="process" method="POST">
+            <div class="main">
+                <div>
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" onfocus="brightenText(this)" onblur="darkenText(this)">
+                </div>
+                
+                <div>
+                    <label for="password">Password</label>
+                    <input type="text" name="password" id="password" onfocus="brightenText(this)" onblur="darkenText(this)">
+                </div>
+                
+                <input type="submit" value="LOG IN">
+            </div>
+        </form>
+        <a href="index.html">- FORGOT YOUR PASSWORD -</a>
+         <script src="script.js"></script>
+    </body>
+</html>

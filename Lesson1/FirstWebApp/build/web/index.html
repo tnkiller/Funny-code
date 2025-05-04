@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form action="main" method="GET">
+            <label for="num1">Number 1</label>
+            <input type="text" name="num1" id="num1">
+
+            <label for="num2">Number 2</label>
+            <input type="text" name="num2" id="num2">
+
+            <label for="operator">Operator</label>
+
+            <select name="operator" id="operator">
+                <option value="" selected disabled></option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+            </select>
+            <input type="submit" value="CALCULATE">
+        </form>
+    </body>
+</html>

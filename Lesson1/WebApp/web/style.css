@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 500px;
+    background-color: rgb(39, 40, 58);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+label,
+input {
+    width: 70%;
+    display: block;
+    margin: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+label:hover {
+    color: white;
+}
+
+.main {
+    padding: 20px;
+}
+
+label {
+    color: rgb(93, 94, 114);
+}
+
+input {
+    color: white;
+    background: none;
+    outline: none;
+    border: 0;
+}
+
+.main>div {
+    margin: 10px;
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(67, 68, 89);
+}
+
+.main>div:nth-child(2) {
+    margin-top: 25px;
+}
+
+
+input[type="submit"] {
+    justify-self: center;
+    width: 30%;
+    color: black;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 40px;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.08);
+    background-color: rgba(255, 255, 255, 0.756);
+
+}
+
+input[type="submit"]:focus {
+    color: rgb(35, 38, 55);
+}
+
+
+a {
+    margin-top: 30px;
+    color: rgb(120, 122, 159);
+    font-family: kanit;
+    transition: transform 0.2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
