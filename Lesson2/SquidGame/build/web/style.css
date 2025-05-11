@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 208, 160);
+}
+
+.container {
+    width: 700px;
+    aspect-ratio: 1 / 1;
+}
+
+p {
+    background-color: rgb(158, 188, 138);
+    text-align: center;
+    font-size: 45px;
+    margin: 30px 0;
+    padding: 10px;
+    color: rgb(233, 231, 176);
+    border-radius: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    transition: all 0.25s ease-in-out;
+    font-family: "Cal Sans";
+}
+
+p:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.75);
+
+}
+
+
+form {
+    border-radius: 20px;
+    background-color: rgb(115, 148, 107);
+    height: 70%;
+    align-self: center;
+    font-size: 40px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+label{
+    font-family: "Cal Sans";
+    font-style: italic;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+input {
+    width: 40%;
+    border: 0;
+    border-radius: 8px;
+    font-size: 0.75em;
+    outline: none;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    width: 100px;
+    aspect-ratio: 4 / 3;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.9em;
+}
+
+
+input[type="submit"]:hover {
+    font-family: "Cal Sans";
+    transform: scale(1.1);
+    width: 100px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    background-color: rgb(83, 125, 93);
+    color: white;
+
+}
